@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
+const postsRouter=require('./routes/posts.routes');
+
 //url
-app.get('/',(req,res)=>{
-res.send('Hello World');
-});
-app.get('/blog',(req,res)=>{
-res.send('Hello Blog');
-    });
+app.use('/post',postsRouter){
+
+res.send("Hello guyz");
+}
 
 module.exports=app;
