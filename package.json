@@ -1,0 +1,19 @@
+{
+  "name": "sequelize_node.js",
+  "version": "1.0.0",
+  "description": "Create Sequelize",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "author": "Milka Bakhuya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.31.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
