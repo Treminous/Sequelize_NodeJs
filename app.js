@@ -3,10 +3,6 @@ const app = express();
 const postsRouter=require('./routes/posts.routes');
 
 //url
-app.use('/post',postsRouter)
-{
-
-res.send("Hello guyz");
-}
+app.use('/post', postsRouter);
 
 module.exports=app;
